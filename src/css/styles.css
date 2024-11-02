@@ -44,13 +44,13 @@ main > section .notices > .informations > .subtitle {
   color: var(--subtitle);
 }
 
-main > section .notices > .informations > .subtitle.-first,
-main > section .notices > .informations > .subtitle.-second,
-main > section .notices > .informations > .subtitle.-third {
+main > section > .notices > .informations > .subtitle.-first,
+main > section > .notices > .informations > .subtitle.-second,
+main > section > .notices > .informations > .subtitle.-third {
   width: 60rem;
 }
 
-main > section .notices > .informations > .subtitle.-third {
+main > section > .notices > .informations > .subtitle.-third {
   margin-bottom: 0;
 }
 
