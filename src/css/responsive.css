@@ -11,18 +11,17 @@
   main > section > .notices {
     margin-top: 0;
     margin-bottom: 4rem;
-    gap: .5rem;
+    gap: 3rem;
     justify-content: flex-start;
   }
 
   main > section > .notices > .image {
-    width: 20rem;
-    height: 20rem;
+    width: 13rem;
+    height: 13rem;
   }
   
   main > section .notices > .informations > .subtitle {
-    background-color: yellow;
-    font-size: 3rem; 
+    width: 45rem;
   }
 
   main > section > .notices > .informations > .description {
