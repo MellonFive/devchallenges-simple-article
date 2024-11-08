@@ -19,10 +19,18 @@ main {
 }
 
 main >.header > .title {
-  width: 70rem;
+  width: 50%;
   font-size: 4rem;
   margin: auto;
   text-align: center;
+}
+
+main > section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+ 
 }
 
 main > section > .notices {
@@ -54,7 +62,8 @@ main > section .notices > .informations > .subtitle {
 main > section > .notices > .informations > .subtitle.-first,
 main > section > .notices > .informations > .subtitle.-second,
 main > section > .notices > .informations > .subtitle.-third {
-  width: 60rem;
+  width: 60%;
+  background-color: red;
 }
 
 main > section > .notices > .informations > .subtitle.-third {
