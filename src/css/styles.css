@@ -8,7 +8,7 @@ main {
 }
 
 .header {
-  padding: 5rem 0;
+  padding: 3rem 0;
   width: 100%;
 }
 
@@ -18,32 +18,47 @@ main {
   text-align: center;
 }
 
-main >.header > .title {
-  width: 70rem;
+main > .header > .title {
+  width: 50%;
   font-size: 4rem;
   margin: auto;
   text-align: center;
 }
 
+main > section {
+  width: 90%;
+
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 main > section > .notices {
   margin-top: 2rem;
   margin-bottom: 4rem;
+
   display: flex;
   justify-content: center;
-  gap: 3rem;
+  align-items: center;
+  gap: 6rem;
+}
+
+main > section > .notices.-first {
+  margin-top: 0;
 }
 
 main > section > .notices > .image {
   border-radius: 2rem;
-  width: 15rem;
-  height: 15rem;
+  width: 20rem;
+  height: 20rem;
 }
 
 main > section > .notices > .informations {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 1.5rem;
+  gap: 5rem;
 }
 
 main > section .notices > .informations > .subtitle {
@@ -54,7 +69,7 @@ main > section .notices > .informations > .subtitle {
 main > section > .notices > .informations > .subtitle.-first,
 main > section > .notices > .informations > .subtitle.-second,
 main > section > .notices > .informations > .subtitle.-third {
-  width: 60rem;
+  width: 75%;
 }
 
 main > section > .notices > .informations > .subtitle.-third {
