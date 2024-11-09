@@ -29,3 +29,10 @@
     font-size: 1.5rem;
   }
 }
+
+@media (max-width: 375px) {
+  main {
+    background-color: red;
+    font-size: 2rem;
+  }
+}
