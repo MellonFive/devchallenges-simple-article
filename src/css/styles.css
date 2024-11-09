@@ -30,7 +30,6 @@ main > section > .notices {
   margin-bottom: 4rem;
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 3rem;
 }
 
@@ -43,7 +42,8 @@ main > section > .notices > .image {
 main > section > .notices > .informations {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  justify-content: center;
+  gap: 1.5rem;
 }
 
 main > section .notices > .informations > .subtitle {

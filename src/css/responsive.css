@@ -6,24 +6,23 @@
   }
 
   main > section {
-    width: 80rem;
-    margin: auto;
+    width: 100%;
   }
-
+  
   main > section > .notices {
-    margin-top: 0;
-    margin-bottom: 4rem;
-    gap: 3rem;
+    margin: 4rem 1.5rem;
     justify-content: flex-start;
   }
 
   main > section > .notices > .image {
-    width: 13rem;
-    height: 13rem;
+    width: 20rem;
+    height: 20rem;
   }
   
-  main > section .notices > .informations > .subtitle {
-    width: 45rem;
+  main > section > .notices > .informations > .subtitle.-first,
+  main > section > .notices > .informations > .subtitle.-second,
+  main > section > .notices > .informations > .subtitle.-third {
+    width: 40rem;
   }
 
   main > section > .notices > .informations > .description {
