@@ -1,5 +1,5 @@
 @media (max-width: 640px) {
-  main >.header > .title {
+  main > .header > .title {
     font-size: 3.8rem;
     width: 65rem;
     text-align: center;
@@ -8,7 +8,7 @@
   main > section {
     width: 100%;
   }
-  
+
   main > section > .notices {
     margin: 4rem 1.5rem;
     justify-content: flex-start;
@@ -18,7 +18,7 @@
     width: 20rem;
     height: 20rem;
   }
-  
+
   main > section > .notices > .informations > .subtitle.-first,
   main > section > .notices > .informations > .subtitle.-second,
   main > section > .notices > .informations > .subtitle.-third {
@@ -31,8 +31,45 @@
 }
 
 @media (max-width: 375px) {
-  main {
-    background-color: red;
-    font-size: 2rem;
+  main > .header > .title {
+    width: 35rem;
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  main > section {
+    margin: auto;
+  }
+
+  main > section > .notices {
+    margin: 2rem auto;
+  }
+
+  main > section > .notices > .image {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  main > section > .notices > .informations {
+    gap: 1rem;
+  }
+
+  main > section > .notices > .informations > .subtitle {
+    font-size: 1rem;
+    text-align: center;
+
+    width: 10rem;
+  }
+
+  main > section > .notices > .informations > .subtitle.-first,
+  main > section > .notices > .informations > .subtitle.-second,
+  main > section > .notices > .informations > .subtitle.-third {
+    width: 100%;
+
+    font-size: 1.5rem;
+  }
+
+  main > section > .notices > .informations > .description {
+    text-align: center;
   }
 }
