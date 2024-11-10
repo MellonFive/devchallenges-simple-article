@@ -61,7 +61,7 @@ main > section > .notices > .informations {
   gap: 5rem;
 }
 
-main > section .notices > .informations > .subtitle {
+main > section > .notices > .informations > .subtitle {
   font-size: 2.5rem;
   color: var(--subtitle);
 }
