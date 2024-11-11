@@ -47,12 +47,12 @@
   }
 
   main > section > .notices > .image {
-    width: 13rem;
-    height: 13rem;
+    width: 15rem;
+    height: 15rem;
   }
 
   main > section > .notices > .informations {
-    gap: 1rem;
+    gap: .5rem;
   }
 
   main > section > .notices > .informations > .subtitle {
