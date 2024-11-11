@@ -10,7 +10,7 @@
   }
 
   main > section > .notices {
-    margin: 4rem 1.5rem;
+    margin: 8rem 1.5rem;
     justify-content: flex-start;
   }
 
@@ -72,5 +72,6 @@
 
   main > section > .notices > .informations > .description {
     text-align: center;
+    font-size: 1.3rem;
   }
 }

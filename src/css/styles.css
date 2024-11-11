@@ -26,23 +26,18 @@ main > .header > .title {
 }
 
 main > section {
-  width: 90%;
+  width: 75%;
 
   margin: auto;
-
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
 
 main > section > .notices {
   margin-top: 2rem;
-  margin-bottom: 4rem;
 
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 6rem;
+  gap: 4rem;
 }
 
 main > section > .notices.-first {
@@ -69,7 +64,7 @@ main > section > .notices > .informations > .subtitle {
 main > section > .notices > .informations > .subtitle.-first,
 main > section > .notices > .informations > .subtitle.-second,
 main > section > .notices > .informations > .subtitle.-third {
-  width: 75%;
+  width: 90%;
 }
 
 main > section > .notices > .informations > .subtitle.-third {
