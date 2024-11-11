@@ -10,7 +10,7 @@
   }
 
   main > section > .notices {
-    margin: 8rem 1.5rem;
+    margin: 4rem 1.5rem;
     justify-content: flex-start;
   }
 
@@ -43,6 +43,8 @@
   }
 
   main > section > .notices {
+    margin: 8rem 2rem;
+
     gap: 1.5rem;
   }
 
