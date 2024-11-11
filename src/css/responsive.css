@@ -1,7 +1,7 @@
 @media (max-width: 640px) {
   main > .header > .title {
-    font-size: 3.8rem;
-    width: 65rem;
+    font-size: 3rem;
+    width: 40rem;
     text-align: center;
   }
 
@@ -22,7 +22,8 @@
   main > section > .notices > .informations > .subtitle.-first,
   main > section > .notices > .informations > .subtitle.-second,
   main > section > .notices > .informations > .subtitle.-third {
-    width: 40rem;
+    width: 30rem;
+    font-size: 1.7rem;
   }
 
   main > section > .notices > .informations > .description {
@@ -32,7 +33,7 @@
 
 @media (max-width: 375px) {
   main > .header > .title {
-    width: 35rem;
+    width: 30rem;
     font-size: 2.2rem;
     text-align: center;
   }
@@ -42,12 +43,12 @@
   }
 
   main > section > .notices {
-    margin: 2rem auto;
+    gap: 1.5rem;
   }
 
   main > section > .notices > .image {
-    width: 15rem;
-    height: 15rem;
+    width: 13rem;
+    height: 13rem;
   }
 
   main > section > .notices > .informations {
@@ -66,7 +67,7 @@
   main > section > .notices > .informations > .subtitle.-third {
     width: 100%;
 
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   main > section > .notices > .informations > .description {
