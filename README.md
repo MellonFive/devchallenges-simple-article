@@ -4,13 +4,13 @@
   Projeto da <a href="https://devchallenges.io/editor/solution/35844">https://devchallenges.io/</a>.
 </p>
 
-### Desktop
+### 🖥 Desktop
 
 <p align="center">
   <img alt="Simple Article Listing" src="./.github/Preview.gif" width="100%">
 </p>
 
-### Mobile
+### 📱 Mobile
 
 <p align="center">
   <img alt="Simple Article Listing" src="./.github/Mobile.gif" width="100%">
